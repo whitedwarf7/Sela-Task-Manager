@@ -1,0 +1,14 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid #144d6e8c; /* Border for the entire TaskList */
+  border-radius: 5px;
+}
+
+li {
+  border-bottom: 1px solid #ddd; /* Individual borders between tasks */
+}
+
+li:last-child {
+  border-bottom: none; /* Remove border for the last task to avoid double borders */
+}

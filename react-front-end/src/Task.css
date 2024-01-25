@@ -1,0 +1,47 @@
+li {
+  position: relative;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+li:hover {
+  background-color: #f9f9f9; /* Highlight on hover */
+}
+
+.delete-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #e74c3c; /* Red color */
+}
+
+.delete-button:hover {
+  color: #c0392b; /* Darker red on hover */
+}
+
+h2,
+p,
+div {
+  cursor: pointer;
+}
+
+h2 input,
+p textarea,
+div select {
+  border: 1px solid #ddd;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+.editing {
+  background-color: #f0f8ff; /* Light blue background for editing mode */
+}
